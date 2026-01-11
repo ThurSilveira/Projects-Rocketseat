@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    font-family: 'Alice', serif;
+}
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+    color: #291B1A;
+}
+h2{
+    font-size: 24px;
+    line-height: 150%;
+    color: #291B1A;
+}
+p, ul, li {
+    font-size: 16px;
+    line-height: 150%;
+    color: #573A37;
+}
+.receita-main {
+    min-height: 80vh;
+    background:
+            linear-gradient(
+                    rgba(138, 90, 60, 0.55),
+                    rgba(138, 90, 60, 0.55)
+            ),
+            url("images/main-image.png") center / cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.receita-container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    color: black;
+    background-color: #F0E8C2;
+}
+
+.container-image img {
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.creditos p {
+    margin: 2rem 0;
+    color: #F0E8C2;
+}
